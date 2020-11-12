@@ -3,16 +3,29 @@
 </template>
 
 <script>
-import Wrapper from './components/Wrapper.vue'
+import Wrapper from "./components/Wrapper.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Wrapper
-  }
-}
+    Wrapper,
+  },
+};
 </script>
 
 <style>
+* {
+  padding: 0;
+  margin: 0;
+}
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 </style>
